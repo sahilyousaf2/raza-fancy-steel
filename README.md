@@ -44,38 +44,6 @@ This project has been heavily optimized for search engines and core web vitals:
 
 ---
 
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js 18.x or later
-- npm / yarn / pnpm
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone [repository-url]
-   cd raza-fancy-steel
-   ```
-
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
-
----
-
 ## 📂 Project Structure
 
 ```text
