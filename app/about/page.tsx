@@ -2,6 +2,8 @@
 
 import { TeamSection } from "@/components/sections/TeamSection";
 import { TimelineSection } from "@/components/sections/TimelineSection";
+import { FounderSection } from "@/components/sections/FounderSection";
+import { CeoSection } from "@/components/sections/CeoSection";
 import { motion } from "framer-motion";
 
 
@@ -14,7 +16,7 @@ export default function AboutPage() {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10" />
                     <div
                         className="w-full h-full bg-cover bg-center opacity-30"
-                        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80')" }}
+                        style={{ backgroundImage: "url('/images/whereshoude-shed.webp')" }}
                     />
                 </div>
 
@@ -83,7 +85,7 @@ export default function AboutPage() {
                             <div className="aspect-[4/3] rounded-3xl overflow-hidden border border-white/10">
                                 <div
                                     className="w-full h-full bg-cover bg-center"
-                                    style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80')" }}
+                                    style={{ backgroundImage: "url('/images/ss-fancy-work.jpg')" }}
                                 />
                             </div>
                             <div className="absolute -bottom-6 -right-6 bg-zinc-900 p-8 rounded-3xl border border-white/10 max-w-xs">
@@ -98,6 +100,13 @@ export default function AboutPage() {
             {/* Timeline */}
             <TimelineSection />
 
+
+
+            {/* Founder Section */}
+            <FounderSection />
+
+            {/* CEO Section */}
+            <CeoSection />
             {/* Team */}
             <TeamSection />
         </>

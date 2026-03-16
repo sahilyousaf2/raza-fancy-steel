@@ -19,15 +19,14 @@ const contactInfo = [
         title: "Phone",
         details: [
             "+92 316 0290519",
-            "+92 21 3506XXXX"
+            "+92 339 9774392"
         ]
     },
     {
         icon: Mail,
         title: "Email",
         details: [
-            "sahilyousaf66@gmail.com",
-            "info@razafancysteel.com"
+            "sahilyousaf66@gmail.com"
         ]
     },
     {
@@ -49,7 +48,7 @@ export default function ContactPage() {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10" />
                     <div
                         className="w-full h-full bg-cover bg-center opacity-30"
-                        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80')" }}
+                        style={{ backgroundImage: "url('/images/whereshoude-shed.webp')" }}
                     />
                 </div>
 

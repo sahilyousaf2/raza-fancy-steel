@@ -11,14 +11,14 @@ export function HeroSection() {
       {/* Dynamic Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black z-10" />
-        <motion.div 
+        <motion.div
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 0.4 }}
           transition={{ duration: 2, ease: "easeOut" }}
           className="relative w-full h-full"
         >
           <NextImage
-            src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80"
+            src="/images/whereshoude-shed.webp"
             alt="Steel Fabrication Industrial Background"
             fill
             priority

@@ -22,7 +22,7 @@ const services = [
         shortDescription: "Heavy-duty industrial warehouse sheds designed for maximum durability and structural integrity.",
         fullDescription: "Our warehouse shed fabrication services encompass complete design, engineering, and construction of industrial storage facilities. We utilize high-grade steel materials and modern fabrication techniques to create structures that withstand harsh weather conditions and heavy loads. Our warehouses are designed for optimal space utilization, easy loading/unloading operations, and long-term durability.",
         icon: Warehouse,
-        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80",
+        image: "/images/whereshoude-shed.webp",
         features: [
             "Custom design solutions",
             "Pre-engineered building systems",
@@ -38,7 +38,7 @@ const services = [
         shortDescription: "Custom-engineered mounting structures for solar panels, optimized for wind load and longevity.",
         fullDescription: "We specialize in designing and installing robust solar panel mounting structures that maximize energy efficiency while ensuring structural integrity. Our solutions are engineered to withstand local wind loads, seismic activity, and environmental factors. From rooftop installations to ground-mounted solar farms, we provide end-to-end solutions for commercial and industrial solar projects.",
         icon: Sun,
-        image: "https://images.unsplash.com/photo-1509391366360-fe5bb6585e2b?auto=format&fit=crop&q=80",
+        image: "/images/solar-penel.webp",
         features: [
             "Fixed tilt mountings",
             "Tracking systems",
@@ -54,7 +54,7 @@ const services = [
         shortDescription: "Premium fiberglass solutions for industrial and commercial roofing and partitions.",
         fullDescription: "Our fiberglass work services provide lightweight, durable, and corrosion-resistant solutions for various industrial applications. We specialize in fiberglass roofing, partitions, panels, and custom fabrications. These products offer excellent thermal insulation, chemical resistance, and are ideal for environments where traditional materials would deteriorate.",
         icon: Layers,
-        image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80",
+        image: "/images/fiber-glass.webp",
         features: [
             "Fiberglass roofing sheets",
             "Custom panel fabrication",
@@ -70,7 +70,7 @@ const services = [
         shortDescription: "NFPA compliant firefighting pipeline systems for industrial complexes and warehouses.",
         fullDescription: "We design and install comprehensive fire fighting pipeline systems that meet NFPA standards and local fire safety regulations. Our services include sprinkler systems, hydrant systems, fire pumps, and hose reel systems. We work closely with fire safety consultants to ensure complete compliance and maximum protection for your facility.",
         icon: Flame,
-        image: "https://images.unsplash.com/photo-1599708153386-62e27f09da51?auto=format&fit=crop&q=80",
+        image: "/images/fire-fighting.webp",
         features: [
             "Sprinkler system installation",
             "Fire hydrant systems",
@@ -86,7 +86,7 @@ const services = [
         shortDescription: "High-end stainless steel decorative work for modern homes and commercial spaces.",
         fullDescription: "Our stainless steel fancy work division creates stunning architectural elements for residential and commercial projects. From decorative railings and partitions to custom furniture and signage, we combine precision engineering with aesthetic design. We work with various grades of stainless steel including 304, 316, and decorative finishes.",
         icon: Settings,
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80",
+        image: "/images/ss-fancy-work.jpg",
         features: [
             "Decorative railings",
             "Custom partitions",
@@ -102,7 +102,7 @@ const services = [
         shortDescription: "Precision TIG, MIG, and Arc welding services for specialized industrial requirements.",
         fullDescription: "Our custom welding services cover a wide range of industrial needs, from structural welding to precision fabrication. We employ certified welders proficient in TIG, MIG, MIG, and Arc welding techniques. Our workshop is equipped with modern welding equipment capable of handling projects of various scales and complexity.",
         icon: Wrench,
-        image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80",
+        image: "/images/welding.webp",
         features: [
             "TIG welding",
             "MIG welding",
@@ -123,7 +123,7 @@ export default function ServicesPage() {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black z-10" />
                     <div
                         className="w-full h-full bg-cover bg-center opacity-30"
-                        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80')" }}
+                        style={{ backgroundImage: "url('/images/whereshoude-shed.webp')" }}
                     />
                 </div>
 

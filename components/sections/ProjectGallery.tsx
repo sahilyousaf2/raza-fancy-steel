@@ -9,37 +9,37 @@ const projects = [
         id: 1,
         title: "Korangi Industrial Warehouse Complex",
         description: "Large-scale warehouse shed fabrication with modern steel structural design spanning 50,000 sq ft.",
-        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80",
+        image: "/images/whereshoude-shed.webp",
     },
     {
         id: 2,
         title: "Solar Power Plant Structures",
         description: "Installation of 500kW solar panel mounting structures with precision engineering for maximum efficiency.",
-        image: "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&q=80",
+        image: "/images/solar-penel.webp",
     },
     {
         id: 3,
         title: "Port Qasim Steel Fabrication",
         description: "Custom heavy-duty steel fabrication for industrial machinery and equipment supports.",
-        image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80",
+        image: "/images/ss-work.webp",
     },
     {
         id: 4,
         title: "Commercial Building Steel Works",
         description: "Complete steel structural framework for multi-story commercial building in Karachi.",
-        image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80",
+        image: "/images/fiber-glass.webp",
     },
     {
         id: 5,
         title: "Stainless Steel Interior Project",
         description: "Premium stainless steel decorative work for luxury hotel and restaurant interiors.",
-        image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80",
+        image: "/images/ss-fancy-work.jpg",
     },
     {
         id: 6,
         title: "Fire Safety Pipeline System",
         description: "Comprehensive fire fighting pipeline installation for industrial complex with NFPA compliance.",
-        image: "https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?auto=format&fit=crop&q=80",
+        image: "/images/fire-fighting.webp",
     },
 ];
 
